@@ -15,7 +15,7 @@ class App < Sinatra::Base
       Hero.new(h)
     end
     @heroes = Hero.all
-  #  binding.pry
+    binding.pry
     erb :team
   end
 
